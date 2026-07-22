@@ -1,0 +1,54 @@
+name: What-If Exploration
+description: Speculative idea — bold, unfinished, and open for discussion
+title: "[What-If] "
+labels:
+  - what-if
+body:
+  - type: markdown
+    attributes:
+      value: |
+        What-If explorations do not need to be fully baked. They should be interesting enough to discuss and potentially promote to a research track.
+
+  - type: textarea
+    id: what-if
+    attributes:
+      label: The What-If
+      description: State the speculative idea clearly.
+      placeholder: "What if Linux desktops handled X the way Y does on macOS?"
+    validations:
+      required: true
+
+  - type: textarea
+    id: motivation
+    attributes:
+      label: Why Explore This?
+      description: What consumer outcome would improve? Why does the status quo feel wrong?
+    validations:
+      required: true
+
+  - type: textarea
+    id: breaks-convention
+    attributes:
+      label: Which Linux Conventions Does This Challenge?
+      description: Be explicit — this is a feature, not a bug, of what-if thinking.
+    validations:
+      required: false
+
+  - type: textarea
+    id: kernel-fit
+    attributes:
+      label: Fit With the Kernel
+      description: Does this work alongside the kernel, or would it require fighting it?
+    validations:
+      required: false
+
+  - type: dropdown
+    id: maturity
+    attributes:
+      label: Idea Maturity
+      options:
+        - Shower thought — needs shaping
+        - Discussed informally — needs evidence
+        - Ready to become a research proposal
+    validations:
+      required: true
