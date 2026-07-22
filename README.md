@@ -7,13 +7,13 @@ linux consumer labs is an open research organization. We study the gap between w
 ## Philosophy
 
 | Principle | What it means |
-|-----------|----------------|
+|-----------|---------------|
 | **Exploring What-Ifs** | Bold hypotheses are a valid starting point. "What if we did X instead of the traditional Linux way?" is research, not heresy. |
 | **Learning from Other OSes** | macOS, Windows, ChromeOS, and others solve real problems well. We study *why* — not to copy blindly, but to learn. |
 | **Not Strictly Following Linux Practices** | Convention is a data point, not a constraint. Where established practice creates consumer friction, we document it and explore alternatives. |
 | **Working Alongside the Kernel** | We do not fight the Linux kernel. We build on its strengths, accept its boundaries, and design userland that complements rather than undermines it. |
 
-Read the full philosophy in [docs/PHILOSOPHY.md](docs/PHILOSOPHY.md).
+The full write-up is in [docs/PHILOSOPHY.md](docs/PHILOSOPHY.md).
 
 ## License
 

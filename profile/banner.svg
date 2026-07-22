@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="280" viewBox="0 0 1200 280" role="img" aria-label="linux consumer labs">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0d1117"/>
+      <stop offset="100%" stop-color="#161b22"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#2dd4bf"/>
+      <stop offset="100%" stop-color="#38bdf8"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="280" fill="url(#bg)"/>
+  <rect x="0" y="276" width="1200" height="4" fill="url(#accent)"/>
+
+  <!-- bridge mark -->
+  <path d="M88 188 C88 132, 132 96, 176 96 C204 96, 224 110, 236 128 C248 110, 268 96, 296 96 C340 96, 384 132, 384 188"
+        fill="none" stroke="url(#accent)" stroke-width="10" stroke-linecap="round"/>
+  <line x1="108" y1="188" x2="364" y2="188" stroke="url(#accent)" stroke-width="10" stroke-linecap="round"/>
+
+  <text x="430" y="118"
+        font-family="ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif"
+        font-size="52" font-weight="600" fill="#f0f6fc" letter-spacing="-1">
+    linux consumer labs
+  </text>
+
+  <text x="430" y="168"
+        font-family="ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif"
+        font-size="24" fill="#8b949e">
+    researching ways to reach &quot;Just Works&quot; on the Linux desktop
+  </text>
+</svg>
