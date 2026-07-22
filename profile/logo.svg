@@ -12,10 +12,21 @@
 
   <rect width="512" height="512" rx="96" fill="url(#bg)"/>
 
-  <g transform="translate(96 96)">
-    <path d="M32 280 C32 200, 80 128, 128 128 C152 128, 168 142, 176 158 C184 142, 200 128, 224 128 C272 128, 320 200, 320 280"
-          fill="none" stroke="url(#accent)" stroke-width="24" stroke-linecap="round" stroke-linejoin="round"/>
-    <line x1="48" y1="280" x2="304" y2="280"
-          stroke="url(#accent)" stroke-width="24" stroke-linecap="round"/>
+  <!-- bridge mark: drawn symmetrically around (256, 256) -->
+  <g transform="translate(256 296)">
+    <path d="M -144 36
+             C -144 -44, -96 -116, -48 -116
+             C -24 -116, -8 -102, 0 -86
+             C 8 -102, 24 -116, 48 -116
+             C 96 -116, 144 -44, 144 36"
+          fill="none"
+          stroke="url(#accent)"
+          stroke-width="24"
+          stroke-linecap="round"
+          stroke-linejoin="round"/>
+    <line x1="-128" y1="36" x2="128" y2="36"
+          stroke="url(#accent)"
+          stroke-width="24"
+          stroke-linecap="round"/>
   </g>
 </svg>
