@@ -1,6 +1,6 @@
 # Philosophy
 
-Linux Consumer Labs exists because "Just Works" is an experience, not a feature checklist. Consumers do not care about package formats, init systems, or desktop theology. They care whether things work predictably when they sit down to use their computer.
+linux consumer labs exists because "Just Works" is an experience, not a feature checklist. Consumers do not care about package formats, init systems, or desktop theology. They care whether things work predictably when they sit down to use their computer.
 
 Our philosophy is deliberately provocative for a Linux-focused organization. It is not provocation for its own sake — it is a research method.
 

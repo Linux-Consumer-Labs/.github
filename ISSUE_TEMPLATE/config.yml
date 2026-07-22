@@ -1,8 +1,0 @@
-blank_issues_enabled: false
-contact_links:
-  - name: General Discussion
-    url: https://github.com/Linux-Consumer-Labs/.github/discussions
-    about: Ask questions, share ideas, or discuss research direction
-  - name: Code of Conduct Report
-    url: mailto:conduct@linuxconsumerlabs.org
-    about: Report behavior that violates our Code of Conduct (update email when configured)
